@@ -9,7 +9,7 @@ constexpr int windowWidth{500};
 constexpr int windowHeight{600};
 constexpr int framesRate{60};
 
-//using namespace SnakeGame;
+//using namespace FlappyBird;
 
 int main()
 {
