@@ -176,6 +176,9 @@ void PlayState::Draw()
     lastFt = ft;*/
 }
 
+/*
+ * Starts a new game.
+ */
 void PlayState::NewGame()
 {
     m_player.Reset();
@@ -187,6 +190,10 @@ void PlayState::NewGame()
     GenerateNewBarrier();
 }
 
+/*
+ * Generates a new barrier.
+ * A barrier consists of a top, a bottom and a vertical gap the player must travel through.
+ */
 void PlayState::GenerateNewBarrier()
 {
     // Top barrier
